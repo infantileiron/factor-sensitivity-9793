@@ -1,0 +1,4 @@
+-- New MySQL schema is created from SQLAlchemy metadata at initialization.
+-- Six core aggregates: response_models, spaces, studies, runs, reviews, reports.
+-- Scientific child tables use DOUBLE: model_factors, model_interactions, factor_ranges, factor_metrics, elementary_effects, evaluation_points.
+-- Existing production databases require reviewed incremental migrations.

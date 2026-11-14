@@ -1,0 +1,2 @@
+export type Role='admin'|'analyst'|'viewer';export interface User{email:string;role:Role}export interface Entity{id:string;created_at:string;[key:string]:any}
+export interface FactorMetric{factor_id:string;name:string;unit:string;linear:number;quadratic:number;low:number;high:number;mu:number;mu_star:number;sigma:number;s1:number;st:number;gap:number;effects:number[];effect_count:number;sigma_denominator:number}
